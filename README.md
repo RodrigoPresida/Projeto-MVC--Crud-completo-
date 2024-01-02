@@ -1,7 +1,7 @@
 
 # Projeto MVC ASP.Net (Crud completo)
 
-Criação de um CRUD em Mvc em Asp.Net completo.
+Criação de um CRUD em Mvc Asp.Net completo.
 
 
 
