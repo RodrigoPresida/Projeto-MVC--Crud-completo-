@@ -1,0 +1,43 @@
+@model Projeto_MVC.Models.Contato
+
+@{
+    ViewBag.Title = "Excluir do contato";
+}
+
+<h1 style="color: red;">Deseja realmente deletar esse contato? Essa operação é irreversível.</h1>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Telefone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Telefone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ativo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ativo)
+        </dd>
+
+    </dl>
+</div>
+<form asp-action="Excluir">
+    <input type="submit" value="Excluir" class="btn btn-danger" /> | <a asp-action="Index"
+        class="btn btn-primary">Voltar</a>
+    </form>
+<br>
+

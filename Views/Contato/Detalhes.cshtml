@@ -1,0 +1,43 @@
+@model Projeto_MVC.Models.Contato
+
+@{
+    ViewBag.Title = "Detalhes do contato";
+}
+
+<h1>Detalhes do contato</h1>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Telefone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Telefone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ativo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ativo)
+        </dd>
+
+    </dl>
+</div>
+<div class="form-group">
+    <a asp-action="Editar" asp-route-id="@Model.Id" class="btn btn-primary">Editar</a> |
+    <a asp-action="Excluir" asp-route-id="@Model.Id" class="btn btn-danger">Excluir</a> | <a asp-action="Index"
+        class="btn btn-secondary">Voltar para a lista</a>
+
+</div>
