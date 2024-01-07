@@ -134,3 +134,4 @@ C:\Users\rodri\OneDrive\Documentos\DIO\Projeto MVC\obj\Debug\net8.0\refint\Proje
 C:\Users\rodri\OneDrive\Documentos\DIO\Projeto MVC\obj\Debug\net8.0\Projeto MVC.pdb
 C:\Users\rodri\OneDrive\Documentos\DIO\Projeto MVC\obj\Debug\net8.0\Projeto MVC.genruntimeconfig.cache
 C:\Users\rodri\OneDrive\Documentos\DIO\Projeto MVC\obj\Debug\net8.0\ref\Projeto MVC.dll
+C:\Users\rodri\OneDrive\Documentos\DIO\Projeto MVC\obj\Debug\net8.0\Projeto MVC.sourcelink.json
